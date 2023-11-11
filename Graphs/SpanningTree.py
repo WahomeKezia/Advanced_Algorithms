@@ -66,8 +66,9 @@ def prim(graph):
 
     return result , total_costp
 
-# Example usage with your provided graph:
+ #Creates a graph object with 12 vertices.
 g = Graph(12)
+#Adds an edge from vertex 0 to vertex 5 with weight 5 and so on for the other edges 
 g.add_edge(0, 5, 5)
 g.add_edge(0, 2, 8)
 g.add_edge(0, 11, 14)
