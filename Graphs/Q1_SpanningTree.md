@@ -44,8 +44,8 @@ This can represented as the source vertex, destination vertex, and the weight of
 (8, 4, 16) ,(7, 4, 8) ,(4, 11, 15) ,(7, 9, 16) ,(11, 7, 15) ,(7, 2, 12) ,(9, 10, 5)
 (9, 6, 5), (10, 5, 16) ,(10, 1, 47) ,(3, 5, 94) ,(1, 5, 20), (3, 6, 22) ,(6, 11, 13) ,(3, 1, 8) }
 
-with the vertices and edges defined , I applied the** Kruskal** and Prim's greedy algorithms to get the minimun Spanning tree:
-See in files spanningTree.py 
+With the vertices and edges defined , I applied the** Kruskal** and **Prim's** greedy algorithms to get the minimun Spanning tree:
+See the implementation in SpanningTree.py <https://github.com/WahomeKezia/Advanced_Algorithms/blob/main/Graphs/SpanningTree.py>
 
 ##Results 
 ---
@@ -56,4 +56,13 @@ Total Cost: 99
 
 MST Graph 
 ![image](https://github.com/WahomeKezia/Advanced_Algorithms/blob/main/Graphs/Kruskal'sMST.jpg)
+
+2. Prim's Algorithm:
+Minimum Spanning Tree: [[0, 0, 0], [0, 5, 5], [0, 2, 8], [2, 11, 8], [5, 8, 8], [2, 6, 12], [6, 9, 5], [9, 10, 5], [2, 7, 12], [7, 4, 8], [5, 1, 20], [1, 3, 8]]
+Total Cost: 99
+
+MST Graph
+![image](https://github.com/WahomeKezia/Advanced_Algorithms/blob/main/Graphs/Prim'sMST.jpg)
+
+
 
