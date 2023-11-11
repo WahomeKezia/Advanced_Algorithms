@@ -50,15 +50,17 @@ See the implementation in SpanningTree.py <https://github.com/WahomeKezia/Advanc
 ##Results 
 ---
 
-1. Kruskal's Algorithm:
-Minimum Spanning Tree: [[0, 5, 5], [9, 10, 5], [9, 6, 5], [0, 2, 8], [2, 11, 8], [8, 5, 8], [7, 4, 8], [3, 1, 8], [2, 6, 12], [7, 2, 12], [1, 5, 20]]   
+1. **Kruskal's Algorithm**:
+Minimum Spanning Tree: [[0, 5, 5], [9, 10, 5], [9, 6, 5], [0, 2, 8], [2, 11, 8], [8, 5, 8], [7, 4, 8], [3, 1, 8], [2, 6, 12], [7, 2, 12], [1, 5, 20]]
+  
 Total Cost: 99
 
 MST Graph 
 ![image](https://github.com/WahomeKezia/Advanced_Algorithms/blob/main/Graphs/Kruskal'sMST.jpg)
 
-2. Prim's Algorithm:
+2. **Prim's Algorithm**:
 Minimum Spanning Tree: [[0, 0, 0], [0, 5, 5], [0, 2, 8], [2, 11, 8], [5, 8, 8], [2, 6, 12], [6, 9, 5], [9, 10, 5], [2, 7, 12], [7, 4, 8], [5, 1, 20], [1, 3, 8]]
+
 Total Cost: 99
 
 MST Graph
