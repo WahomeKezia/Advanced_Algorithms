@@ -54,6 +54,6 @@ See in files spanningTree.py
 Minimum Spanning Tree: [[0, 5, 5], [9, 10, 5], [9, 6, 5], [0, 2, 8], [2, 11, 8], [8, 5, 8], [7, 4, 8], [3, 1, 8], [2, 6, 12], [7, 2, 12], [1, 5, 20]]   
 Total Cost: 99
 
-**Graph **
-![image](https://github.com/WahomeKezia/Advanced_Algorithms/assets/90443938/937deea9-a25d-4514-b0cd-5783a610f1a9)
+MST Graph 
+![image](https://github.com/WahomeKezia/Advanced_Algorithms/blob/main/Graphs/Kruskal'sMST.jpg)
 
