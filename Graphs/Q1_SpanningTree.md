@@ -25,12 +25,20 @@ A spanning tree of a connected, undirected graph is a subgraph that is a tree an
 
 For the graph in the image above , 
 
-G= (V,E) (v=vertices ,  E=edges)
-
-V = {a,f,k,j,h,e,i,c,g,h,d,b} 
-
-This vertices can be reprecenyted as = { 0-a 1=b 2=c 3=d 4=e 5=f 6=g 7=h 8=i 9=j 10=k 11=l } 
-
+G= (V,E) (v= vertices ,  E=edges)
 In this graph |v| = 12
+V = `{a,f,k,j,h,e,i,c,g,h,d,b}` 
+This vertices can be represented as = { 0-a 1=b 2=c 3=d 4=e 5=f 6=g 7=h 8=i 9=j 10=k 11=l } 
+
+For the edges , 
+|E| = 22
+`{ af =5 ,  ac =8   , al=14 ,cg=12 , ci=10, cl=8, if=8 , ie=16 , eh=8 , el=15 ,hj=16, hl=15, hb=12 , jk=5 jg=5, kf=16 ,kb=47, fd=94, fb=20, dg=22 ,gl=13 db=8  } `
+
+This can represented as , 
+{(0, 5, 5) ,(0, 2, 8) ,(0, 11, 14),(2, 6, 12),(2, 8, 10) ,(2, 11, 8) ,(8, 5, 8)
+(8, 4, 16) ,(7, 4, 8) ,(4, 11, 15) ,(7, 9, 16) ,(11, 7, 15) ,(7, 2, 12) ,(9, 10, 5)
+(9, 6, 5), (10, 5, 16) ,(10, 1, 47) ,(3, 5, 94) ,(1, 5, 20), (3, 6, 22) ,(6, 11, 13) ,(3, 1, 8) }
+
+
 
 
