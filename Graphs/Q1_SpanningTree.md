@@ -82,8 +82,7 @@ The graph is connected, meaning there is a path between every pair of vertices, 
 **Differences Between the algorithms **
 
 1. Kruskal's algorithm relies on sorting the edges based on their weights, which can have a time complexity of O(E log E), where E is the number of edges while Prim's algorithm is based on selecting vertices and growing the minimum spanning tree from an initial vertex.The time complexity is typically expressed as O(E log V)
-2. 
-Kruskal's algorithm is often preferred for sparse graphs (where the number of edges is much less than the square of the number of vertices).Prim's algorithm can be more efficient for dense graphs (where the number of edges is close to the square of the number of vertices).
+2. Kruskal's algorithm is often preferred for sparse graphs (where the number of edges is much less than the square of the number of vertices).Prim's algorithm can be more efficient for dense graphs (where the number of edges is close to the square of the number of vertices).
 
 3. Kruskal's algorithm can handle disconnected graphs, as it processes each edge independently.Prim's algorithm assumes that the graph is connected. If the graph is not connected, you may need to run the algorithm for each connected component.
 
