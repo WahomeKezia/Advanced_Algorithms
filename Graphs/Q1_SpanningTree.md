@@ -26,7 +26,9 @@ A spanning tree of a connected, undirected graph is a subgraph that is a tree an
 For the graph in the image above , 
 
 G= (V,E) (v= vertices ,  E=edges)
+
 **Vertices **
+
 In this graph |v| = 12
 V = `{a,f,k,j,h,e,i,c,g,h,d,b}` 
 This vertices can be represented as = { 0-a 1=b 2=c 3=d 4=e 5=f 6=g 7=h 8=i 9=j 10=k 11=l } 
@@ -41,5 +43,12 @@ This can represented as the source vertex, destination vertex, and the weight of
 {(0, 5, 5) ,(0, 2, 8) ,(0, 11, 14),(2, 6, 12),(2, 8, 10) ,(2, 11, 8) ,(8, 5, 8)
 (8, 4, 16) ,(7, 4, 8) ,(4, 11, 15) ,(7, 9, 16) ,(11, 7, 15) ,(7, 2, 12) ,(9, 10, 5)
 (9, 6, 5), (10, 5, 16) ,(10, 1, 47) ,(3, 5, 94) ,(1, 5, 20), (3, 6, 22) ,(6, 11, 13) ,(3, 1, 8) }
+
+with the vertices and edges defined , I applied the** Kruskal** and Prim's greedy algorithms to get the minimun Spanning tree:
+See in files spanningTree.py 
+
+##Results 
+---
+
 
 
