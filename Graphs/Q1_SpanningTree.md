@@ -69,6 +69,7 @@ MST Graph
 ## Are the Algorithms the same , which is better?
 ---
 The Algorithms return the same cost for mst 
+
 Here are some reasons why Kruskal's and Prim's algorithms may and in this case return the same MST:
 
 **Uniqueness of MST:**
