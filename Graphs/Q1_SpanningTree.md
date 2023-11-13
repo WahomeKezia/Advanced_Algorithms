@@ -1,4 +1,4 @@
-##Question one 
+## Question one 
 ---
 For the graph below use Kruskal's algorithm and Prim's algorithm to find a minimum weight spanning
 tree. Your answer should include a complete list of the edges, indicating which edges you take for \
@@ -18,7 +18,7 @@ Tasks to be done
 5. Justify whether or not the two graphs are the same.
 6. Justify which algorithm is better and why?
 
-##Solution 
+## Solution 
 ---
 **Spanning Tree:**
 A spanning tree of a connected, undirected graph is a subgraph that is a tree and connects all the vertices together. A minimum weight spanning tree is a spanning tree with the minimum possible total edge weight. 
@@ -47,7 +47,7 @@ This can represented as the source vertex, destination vertex, and the weight of
 With the vertices and edges defined , I applied the** Kruskal** and **Prim's** greedy algorithms to get the minimun Spanning tree:
 See the implementation in SpanningTree.py <https://github.com/WahomeKezia/Advanced_Algorithms/blob/main/Graphs/SpanningTree.py>
 
-##Results 
+## Results 
 ---
 
 1. **Kruskal's Algorithm**:
@@ -66,7 +66,7 @@ Total Cost: 99
 MST Graph
 ![image](https://github.com/WahomeKezia/Advanced_Algorithms/blob/main/Graphs/Prim'sMST.jpg)
 
-##Are the Algorithms the same , which is better?
+## Are the Algorithms the same , which is better?
 ---
 The Algorithms return the same cost for mst 
 Here are some reasons why Kruskal's and Prim's algorithms may and in this case return the same MST:
