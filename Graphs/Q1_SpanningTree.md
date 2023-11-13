@@ -1,5 +1,5 @@
 ## Question one 
----
+
 For the graph below use Kruskal's algorithm and Prim's algorithm to find a minimum weight spanning
 tree. Your answer should include a complete list of the edges, indicating which edges you take for \
 your tree in the course of running the algorithm.
@@ -19,7 +19,7 @@ Tasks to be done
 6. Justify which algorithm is better and why?
 
 ## Solution 
----
+
 **Spanning Tree:**
 A spanning tree of a connected, undirected graph is a subgraph that is a tree and connects all the vertices together. A minimum weight spanning tree is a spanning tree with the minimum possible total edge weight. 
 
