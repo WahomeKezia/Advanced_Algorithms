@@ -1,17 +1,17 @@
 ##Question2
----
+****
 Graph to work on
 
 ![image](https://github.com/WahomeKezia/Advanced_Algorithms/blob/main/Graphs/Q2-Graph.png)
 
-****1. Required descriptions
-****
+****1. Required descriptions****
+---
 - How many nodes n?
 - How many edges m?
 - How many adjacent edges e?
 
 ****Tasks to be completed****
-
+---
 Complete the bfs function, If a node is unreachable, its distance is -1.
 
 bfs has the following parameter(s):
