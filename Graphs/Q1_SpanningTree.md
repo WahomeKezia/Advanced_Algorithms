@@ -72,17 +72,18 @@ The Algorithms return the same cost for mst
 
 Here are some reasons why Kruskal's and Prim's algorithms may and in this case return the same MST:
 
-**Uniqueness of MST:**
+1. **Uniqueness of MST:**
 The graph has unique edge weights, there is only one MST, and both algorithms will find and return the same tree.
 
-**Connected Graph:**
+2. **Connected Graph:**
 The graph is connected, meaning there is a path between every pair of vertices, Kruskal's and Prim's algorithms will build the MST starting from different edges but ultimately converge to the same tree.
 
 - Both algorithms have the same time complexity of O(E log V) in the worst case, where V is the number of vertices and E is the number of edges.
   
-**Differences Between the algorithms:**
+**3. Differences Between the algorithms:**
 
 This is acontrast of the two algorithms that will show which is better when solve a different senario graph
+
 1. Kruskal's algorithm relies on sorting the edges based on their weights, which can have a time complexity of O(E log E), where E is the number of edges while Prim's algorithm is based on selecting vertices and growing the minimum spanning tree from an initial vertex.The time complexity is typically expressed as O(E log V)
 2. Kruskal's algorithm is often preferred for sparse graphs (where the number of edges is much less than the square of the number of vertices).Prim's algorithm can be more efficient for dense graphs (where the number of edges is close to the square of the number of vertices).
 
