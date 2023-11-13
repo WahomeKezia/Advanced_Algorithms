@@ -80,7 +80,7 @@ The graph is connected, meaning there is a path between every pair of vertices, 
 
 - Both algorithms have the same time complexity of O(E log V) in the worst case, where V is the number of vertices and E is the number of edges.
   
-**3. Differences Between the algorithms:**
+****Differences Between the algorithms:****
 
 This is acontrast of the two algorithms that will show which is better when solve a different senario graph
 
