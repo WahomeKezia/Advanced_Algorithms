@@ -7,9 +7,9 @@ Graph to work on
 
 **1. Required descriptions**
 ---
-- How many nodes n?
-- How many edges m?
-- How many adjacent edges e?
+- How many nodes n? 6
+- How many edges m? 4
+- How many adjacent edges e? [(a,b),(b,d), (d,e) (a,c) (f,)]
 
 **2.Tasks to be completed**
 ---
