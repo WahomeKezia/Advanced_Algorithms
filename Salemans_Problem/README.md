@@ -1,0 +1,1 @@
+Q1. Sam delivers items in the city among different clients located in different locations. Those locations are identified by letters and distances from one location to another in kilometers is given by a nonnegative number on path segment as shown in the graph that follows:
